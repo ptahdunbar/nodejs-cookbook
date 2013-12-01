@@ -7,6 +7,8 @@ version          "1.3.0"
 name             "nodejs"
 provides         "nodejs"
 
+depends         "git"
+
 recipe "nodejs", "Installs Node.JS based on the default installation method"
 recipe "nodejs::install_from_source", "Installs Node.JS from source"
 recipe "nodejs::install_from_binary", "Installs Node.JS from official binaries"
